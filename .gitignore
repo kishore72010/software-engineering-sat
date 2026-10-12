@@ -1,0 +1,30 @@
+# Maven Build Artifacts
+backend/target/
+backend/*.log
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Node & Frontend Build Artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/.tmp/
+
+# IDE & Editor Files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Environment & Sensitive Files
+.env
+*.key
+*.pem
